@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h1>PortFolio.</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">MyWorks</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">PortFolio</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="left">
+                <div class="content">
+                    <div class="info">
+                        <h1>Hi, Myself <span id="element"></span> <br>
+                            <div>A freelancing Web Developer</div>
+                        </h1>
+                        <p>Welcome to my page! I'm a passionate frontend developer with proficiency in HTML, CSS and JS.
+                            <br> I design and develop dynamic and user friendly web pages.
+                            <br>Let me know What I can create for you ...
+                        </p>
+                        <a href="#" class="bt1">Resume</a>
+                        <a href="#" class="bt2">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img src="./resourcess/—Pngtree—developers are coding programs on_14867886.png" width="520" height="500"
+                    alt="">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        let typed = new Typed('#element', {
+            strings: ['Prabhu'],
+            typeSpeed: 70,
+            loop: true,
+            backDelay: 1500,
+            startDelay: 30,
+        });
+    </script>
+    <footer>
+        <div class="first">
+            Prabhu's PortFolio.
+        </div>
+        <div class="second">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">MyWorks</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">PortFolio</a></li>
+            </ul>
+        </div>
+        <div class="third">
+            <p>&copy; 2024 Prabhujethi All Right Reserved</p>
+        </div>
+        <div class="fourth">
+            <a href="#" <i class="fa-brands fa-instagram"></i></a>
+            <a href="#" <i class="fa-brands fa-twitter"></i></a>
+            <a href="#" <i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" <i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>

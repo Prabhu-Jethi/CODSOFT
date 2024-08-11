@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora&family=PT+Sans&family=Poppins:wght@100;200;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 165vh;
+    background: #080527;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header {
+    background: #080527;
+}
+
+header nav .left {
+    font-size: 24px;
+    padding-left: 10vw;
+    padding-top: 5vh;
+    cursor: pointer;
+}
+
+header nav .right ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    bottom: 33px;
+    left: 22vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+    position: relative;
+}
+
+header nav ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+/*MAIN*/
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+}
+
+.content {
+    padding-top: 23vh;
+}
+
+.content .info h1 {
+    font-size: 38px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.content .info span {
+    font-size: 38px;
+    color: rgb(149, 230, 244);
+    text-transform: capitalize;
+}
+
+.content .info p {
+    font-size: 18px;
+    padding-top: 6vh;
+    font-weight: 400;
+}
+
+.content .info .bt1 {
+    background: #000;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    border-color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 8vh;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.content .info .bt1:hover {
+    color: rgb(149, 230, 244);
+    transform: scale(1.5);
+}
+
+.content .info .bt2 {
+    margin: 0px 25px;
+    background: #000;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    border-color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 8vh;
+}
+
+.content .info .bt2:hover {
+    background: #fff;
+    color: #000;
+}
+
+.right img {
+    position: relative;
+    top: 10vh;
+}
+
+
+footer {
+    background: #292929ae;
+    height: 350px;
+    position: relative;
+    top: 60vh;
+}
+
+footer .first {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0px 50px;
+    position: relative;
+    top: 10vh;
+    left: 2vw;
+}
+
+footer .second ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+footer .second ul li a {
+    text-decoration: none;
+    color: #b0b0b0;
+    margin: 0px 20px;
+    position: relative;
+    top: 3vh;
+    right: 0px;
+}
+
+footer .second ul li a:hover {
+    color: whitesmoke;
+}
+
+footer .third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .third p {
+    position: relative;
+    bottom: -25vh;
+    font-weight: 400;
+    font-size: 18px;
+    color: #b0b0b0;
+}
+
+footer .fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .fourth a {
+    position: relative;
+    left: 40vw;
+    top: 14vh;
+    letter-spacing: 15px;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+footer .fourth a:hover {
+    color: #727272;
+}
